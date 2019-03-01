@@ -1,0 +1,35 @@
+html, body  .div{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+body{
+    background-color: #f5d9d5;
+    padding-top:4em;
+}
+@media  (max-width:1000px){
+    h1{
+        font-size:1.5em;
+    }
+
+}
+
+#main-nav{
+   
+    font-size:1.5em;
+    font-weight:100;
+}
+#main-nav .navbar-brand{
+    color:red;
+    
+    
+}
+#main-nav .nav-link{
+    color:white;
+}
+#main-nav .nav-link:hover{
+    color:red;  
+}
+.navbar.scrolled{
+    background-color:purple;
+}
